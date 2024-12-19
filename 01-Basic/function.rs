@@ -5,7 +5,9 @@ fn add(a: i128, b: i128) -> i128 {
 }
 
 fn main() {
-    let x = add(9999999999999, 999999999999999999999);
+    let x =add (2,10);
     
     println!("The result is: {}", x);
 }
+
+
