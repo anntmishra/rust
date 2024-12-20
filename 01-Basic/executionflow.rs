@@ -1,4 +1,4 @@
-/* fn main(){
+fn main(){
 let a =99;
 if a>99{
     println!("big number");
@@ -9,9 +9,9 @@ if a>99{
     println!("small number")
 }
 }
- */
+/////
 
-/* fn mainone() {
+fn mainone() {
     let a = 99;
     if a > 99 {
         println!("big number");
@@ -20,21 +20,22 @@ if a>99{
     } else {
         println!("small number");
     }
-} */
+}
 
 
 //nested if else
 
 
-fn test(){
-    let n=99;
+fn main(){
+    let n=201;
     if n>99{
-        if a>200{
-            prinln!("Huge Number");
-        }else{
+        if n>200{
+            println!("Huge Number");
+        }else  {
             println!("Big Number");
 
         }
     }else{
-        prinln!("Small Number");
+        println!("Small Number");
     }}
+
